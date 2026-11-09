@@ -1,0 +1,136 @@
+body {
+  color: rgb(0,0,0);
+  background: linear-gradient(135deg, #FFFFFF, #C8E2D5);
+  padding: 30px;
+  margin: 0px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: Ink Free;
+  color: #A4CFB7;
+}
+
+.outside {
+  width: 1000px;
+  border: 0px solid rgb(155,201,174)5);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: Ink Free;
+}
+
+.inside {
+  width: 500px;
+  border: 1px solid #A4CFB7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  font-family: Ink Free;
+}
+
+p {
+  border: 1px  rgb(0,0,0);
+  width: 900px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: left;
+  color: #85AD99;
+  font-size: 20px;
+  font-family: 	Goudy Old Style;
+}
+
+div {
+  border: 1px  rgb(0,0,0);
+  width: px0px;
+  margin: auto;
+  margin-top: 1px;
+  text-align: center;
+  color: #85AD99;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: Ink Free;
+}
+
+ol {
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-family: Ink Free;
+  color: #386D8D 
+}
+
+ul {
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  font-family: Ink Free;
+  color: #3F729E 
+}
+
+a:hover {
+  background-color: rgb(181,232,233);
+}
+
+td {
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-family: Ink Free;
+  color: #A4CFB7 
+}
+
+tr {
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-family: Ink Free;
+  color: #A4CFB7 
+}
+
+table {
+   margin: auto;
+   width: 600px;
+}
+
+img {
+      display: block;
+      margin: 0 auto;
+    }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  div {
+    max-width: 90vw !important;
+  }
+}
+
+button{
+  background-color: #85AD99;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Goudy Old Style;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:focus{
+  background: #B9DAC9;
+}
+
+td:hover{
+  background: #C4DDD1;
+}#CEE5DA#CDE4D9#CFE4DA#D1E4DB#D2E4DB#D2E2DB

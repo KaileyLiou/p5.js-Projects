@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <script type="text/javascript">
+     let wicked=0;
+     let intothewoods=0;
+     let meangirls=0;
+     let dearevanhansen=0;
+     let six=0;
+    function processQuestion (questionNumber, answerChoice) {
+
+      if(questionNumber==1 && answerChoice ==2){
+        wicked=wicked+1;
+         }
+      if(questionNumber==1 && answerChoice ==1){
+        intothewoods=intothewoods+1;
+         }
+      if(questionNumber==1 && answerChoice ==3){
+         meangirls=meangirls+1;
+         }
+      if(questionNumber==1 && answerChoice ==4){
+        dearevanhansen=dearevanhansen+1;
+         }
+      if(questionNumber==1 && answerChoice ==3){
+        six=six+1;
+         }
+      if(questionNumber==2 && answerChoice ==1){
+         Wicked=wicked+1;
+         }
+      if(questionNumber==2 && answerChoice ==1){
+         intothewoods=intothewoods+1;
+         }
+      if(questionNumber==2 && answerChoice ==3){
+         meangirls=meangirls+1;
+         }
+      if(questionNumber==2 && answerChoice ==2){
+         dearevanhansen=dearevanhansen+1
+         }
+      if(questionNumber==2 && answerChoice ==3){
+         six=six+1
+         }
+      if(questionNumber==3 && answerChoice ==3){
+         wicked=wicked+1
+         }
+      if(questionNumber==3 && answerChoice ==3){
+         intothewoods=intothewoods+1
+         }
+      if(questionNumber==3 && answerChoice ==4){
+         meangirls=meangirls+1
+         }
+      if(questionNumber==3 && answerChoice ==1){
+         dearevanhansen=dearevanhansen+1
+         }
+      if(questionNumber==3 && answerChoice ==2){
+         six=six+1
+         }
+      if(questionNumber==4 && answerChoice ==3){
+         wicked=wicked+1
+         }
+      if(questionNumber==4 && answerChoice ==2){
+         intothewoods=intothewoods+1
+         }
+      if(questionNumber==4 && answerChoice ==1){
+         meangirls=meangirls+1
+         }
+      if(questionNumber==4 && answerChoice ==2){
+         dearevanhansen=dearevanhansen+1
+         }
+      if(questionNumber==4 && answerChoice ==4){
+         six=six+1
+         }
+      if(questionNumber==5 && answerChoice ==2){
+         wicked=wicked+1
+         }
+      if(questionNumber==5 && answerChoice ==2){
+         meangirls=meangirls+1
+         }
+      if(questionNumber==5 && answerChoice ==1){
+         intothewoods=intothewoods+1
+         }
+      if(questionNumber==5 && answerChoice ==3){
+         dearevanhansen=dearevanhansen+1
+         }
+      if(questionNumber==5 && answerChoice ==4){
+         six=six+1
+         }
+
+      console.log(wicked, intothewoods, meangirls, dearevanhansen, six)
+
+    }
+
+    function calculateAnswer(){
+      if(intothewoods>=2){
+      result.innerHTML="Into the Woods<img src='intothewoods.png' width='400'/>"
+      }
+      if(meangirls>=2){
+      result.innerHTML="Mean Girls<img src='meangirls.jpg' width='400'/>";
+      }
+      if(dearevanhansen>=2){
+      result.innerHTML="Dear Evan Hansen<img src='dearevanhansen.jpg' width='400'/>";
+      }
+      if(six>=2){
+      result.innerHTML="Six<img src='six.jpg' width='400'/>";
+      }
+      if(wicked>=2){
+      result.innerHTML="Wicked<img src='wicked.jpg' width='400'/>";
+      }
+      else {
+        result.innerHTML="Wicked<img src='wicked.jpg' width='400'/>";
+      }
+    }
+  </script>
+  <body>
+    <h1>Which Broadway Musical are you?</h1>
+    <p>Question 1: What is your favorite holiday?</p>
+    <br />
+    <table border="1">
+      <tr>
+        <td onclick="processQuestion (1,1)">
+          <br />Christmas <img src="christmas.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (1,2)">
+          Halloween
+          <br />
+          <br />
+          <img src="halloween.png" width="100" />
+        </td>
+      </tr>
+      <tr>
+        <td onclick="processQuestion (1,3)">
+          <br />My Birthday <img src="birthday.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (1,4)">
+          Valentines' Day
+          <br />
+          <br />
+          <img src="valentinesday.png" width="100" />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <p>
+      Question 2: If you had to go out and look for a missing item all by
+      yourself, how would you feel?
+    </p>
+    <br />
+    <table border="1">
+      <tr>
+        <td onclick="processQuestion (2,1)">
+          <br />Excited
+          <br />
+          <br />
+          <img src="excited.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (2,2)">
+          Scared
+          <br />
+          <br />
+          <img src="scared.gif" width="120" />
+        </td>
+      </tr>
+      <tr>
+        <td onclick="processQuestion (2,3)">
+          I don’t care <img src="idontcare.png" width="200" />
+        </td>
+        <td onclick="processQuestion (2,4)">
+          <br />I do what I’m told to do
+          <br />
+          <br />
+          <img src="idowhatimtoldtodo.png" width="100" /><br />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <p>Question 3: Which trait best matches with your own personality?</p>
+    <br />
+    <table border="1">
+      <tr>
+        <td onclick="processQuestion (3,1)">
+          <br />Shy
+          <br />
+          <br />
+          <img src="shy.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (3,2)">
+          Outgoing
+          <br />
+          <br />
+          <img src="outgoing.png" width="200" />
+        </td>
+      </tr>
+      <tr>
+        <td onclick="processQuestion (3,3)">
+          <br />Determined <img src="determined.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (3,4)">
+          Popular
+          <br />
+          <br />
+          <img src="popular.png" width="200" />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <p>Question 4: What is your favorite color?</p>
+    <br />
+    <table border="1">
+      <tr>
+        <td onclick="processQuestion (4,1)">
+          <br />Pink
+          <br />
+          <br />
+          <img src="pink.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (4,2)">
+          <br />Blue
+          <br />
+          <br />
+          <img src="blue.png" width="100" /><br />
+        </td>
+      </tr>
+      <tr>
+        <td onclick="processQuestion (4,3)">
+          Green
+          <br />
+          <br />
+          <img src="green.png" width="100" />
+        </td>
+        <td onclick="processQuestion (4,4)">
+          <br />Purple
+          <br />
+          <br />
+          <img src="purple.png" width="100" /><br />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <p>Question 5: Choose one of these objects!</p>
+    <br />
+    <table border="1">
+      <tr>
+        <td onclick="processQuestion (5,1)">
+          <br />Bread
+          <br />
+          <br />
+          <img src="bread.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (5,2)">
+          Silver Shoes
+          <br />
+          <br />
+          <img src="silvershoes.png" width="100" />
+        </td>
+      </tr>
+      <tr>
+        <td onclick="processQuestion (5,3)">
+          <br />Tree
+          <br />
+          <br />
+          <img src="tree.png" width="100" /><br />
+        </td>
+        <td onclick="processQuestion (5,4)">
+          Crown
+          <br />
+          <br />
+          <img src="crown.png" width="100" />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <button onclick="calculateAnswer()">Submit</button>
+    <div id="result"></div>
+    <main></main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
