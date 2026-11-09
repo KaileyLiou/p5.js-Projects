@@ -1,6 +1,6 @@
 # My p5.js Projects
 
-This repository contains a collection of JavaScript projects I created using p5.js in my Robotics class from grades 6-8.
+This repository contains a collection of JavaScript and HTML/CSS projects I created using p5.js in my Robotics class from grades 6-8.
 
 * [Halloween Scene](halloween-scene/)
 * [Winter Christmas Scene](winter-christmas-scene/)
